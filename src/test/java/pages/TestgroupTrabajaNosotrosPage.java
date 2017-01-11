@@ -20,7 +20,7 @@ public class TestgroupTrabajaNosotrosPage {
 	@FindBy(how = How.XPATH, using = "/html/body/div/div[2]/section[1]/div/div/div/div/div[1]/button")
 	private WebElement btnOfertaDisponible;
 	// botón de Déjanos tu Curriculum Vitae
-	@FindBy(how = How.XPATH, using = "/html/body/div/div[2]/section[1]/div/div/div/div/div[3]/button")
+	@FindBy(how = How.XPATH, using = "//div[3]/button")
 	private WebElement btnCurriculumVitae;
 	// Área de texto Nombre
 	@FindBy(how = How.XPATH, using = "//input[@name='nombre']")

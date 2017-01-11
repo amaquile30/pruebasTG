@@ -24,7 +24,7 @@ public class TestgroupCabeceraPage {
 		}
 	}
 	//Logo-link TestGroup
-	@FindBy(how = How.CSS, using = "img.logo-testgroup.firepath-matching-node")
+	@FindBy(how = How.XPATH, using = "/html/body/div[1]/div[1]/div[1]/div/div/a/img")
 	private WebElement lnkTestgroup;
 	//Menú Inicio
 	@FindBy(how = How.ID, using = "menu-item-18")
