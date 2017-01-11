@@ -32,7 +32,7 @@ public class ScriptTestNG2 extends TestBase {
 	public void clicMenuTrabajeNosotros() {
 		try {
 			cabeceraPage.clicMenuTrabajaNosotros();
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			System.out.println("Se presento un problema " + e);
 			e.printStackTrace();
@@ -44,6 +44,7 @@ public class ScriptTestNG2 extends TestBase {
 		String msj = "";
 		trabajeNosotros = new TestgroupTrabajaNosotrosPage(driver);
 		try {
+			Thread.sleep(3000);
 			msj=trabajeNosotros.clicDejarCurriculoVitae();
 			Thread.sleep(2000);
 			if (msj.equals("Ok")) {
