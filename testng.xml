@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite 1">
+	<listeners>
+		<listener class-name="util.TakeScreenShot"></listener>
+	</listeners>
+	<test name="test">
+		<classes>
+			<class name="test.ScriptTestNG" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="test2">
+		<classes>
+			<class name="test.ScriptTestNG2" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="test3">
+		<classes>
+			<class name="test.ScriptTestNG3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
